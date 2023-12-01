@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .term {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    text-align: center;
+  }
+  /* Color coded based on if the number displayed is even or odd */
+  .even {
+    background-color: #2a82d4;
+  }
+  
+  .odd {
+    background-color: rgb(219, 75, 64);
+  }
+  /* Separate box to display the formula */
+  .formula {
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
